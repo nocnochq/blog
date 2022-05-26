@@ -35,11 +35,12 @@ const config = {
         src: 'img/logo.svg',
         srcDark: 'img/logo_dark.svg',
         href: 'https://light.tt/',
+        target: '_self'
       },
       items: [
         // { to: 'post', label: 'Blog', position: 'left' },
         { to: 'policy', label: 'Policy', position: 'right' },
-        { to: 'terms', label: 'Terms', position: 'right' },
+        { to: 'terms', label: 'Terms', position: 'right' }
       ]
     }
   }

@@ -1,5 +1,7 @@
 const Home = () => {
-  location.href = '//light.tt';
+  if (process.env.NODE_ENV !== 'development') {
+    location.href = '//light.tt';
+  }
   return null;
 };
 
