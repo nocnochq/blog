@@ -7,6 +7,7 @@ const config = {
   onBrokenMarkdownLinks: 'warn',
   favicon: 'favicon.ico',
   organizationName: 'nocnochq',
+  projectName: 'blog',
 
   i18n: {
     defaultLocale: 'en',
