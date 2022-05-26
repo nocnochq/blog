@@ -37,10 +37,9 @@ const config = {
         href: 'https://light.tt/',
       },
       items: [
-        { to: 'post', label: 'Blog', position: 'left' },
+        // { to: 'post', label: 'Blog', position: 'left' },
         { to: 'policy', label: 'Policy', position: 'right' },
         { to: 'terms', label: 'Terms', position: 'right' },
-
       ]
     }
   }
